@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "jansson.h": "c",
+        "chrono": "c",
+        "__config": "c",
+        "cstdio": "c",
+        "span": "c",
+        "istream": "c",
+        "ostream": "c",
+        "*.inc": "c"
+    }
+}

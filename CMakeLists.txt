@@ -14,6 +14,7 @@ option (ENABLE_DEMOSYNTH_PLUGIN    "Enable demo synthesizer plugin"             
 option (ENABLE_DEMORECOG_PLUGIN    "Enable demo recognizer plugin"                  ON)
 option (ENABLE_DEMOVERIFIER_PLUGIN "Enable demo verifier plugin"                    ON)
 option (ENABLE_RECORDER_PLUGIN     "Enable recorder plugin"                         ON)
+option (ENABLE_MOCKRECOG_PLUGIN    "Enable mock recognizer plugin"                  ON)
 
 option (ENABLE_AMR_CODEC           "Enable AMR Codec"                               OFF)
 

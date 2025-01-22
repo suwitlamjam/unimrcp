@@ -17,7 +17,3 @@ endif
 if RECORDER_PLUGIN
 SUBDIRS               += mrcp-recorder
 endif
-
-if MOCKRECOG_PLUGIN
-SUBDIRS               += mock-recog
-endif

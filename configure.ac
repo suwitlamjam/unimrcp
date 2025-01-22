@@ -197,6 +197,11 @@ UNI_PLUGIN_ENABLED(demorecog)
 
 AM_CONDITIONAL([DEMORECOG_PLUGIN],[test "${enable_demorecog_plugin}" = "yes"])
 
+dnl Mock recognizer plugin.
+UNI_PLUGIN_ENABLED(mockrecog)
+
+AM_CONDITIONAL([DEMORECOG_PLUGIN],[test "${enable_mockrecog_plugin}" = "yes"])
+
 dnl Demo verifier plugin.
 UNI_PLUGIN_ENABLED(demoverifier)
 
